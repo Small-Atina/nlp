@@ -1,4 +1,11 @@
+### 自动生成摘要分类
+#### 有监督和无监督
+#### 抽取式和生成式
+#### 单文档和多文档
 ### 抽取式摘要
 + TextRank
 + Lead
 + BertSum
+### 生成式摘要
++ seq2seq+attention
++ PGN+Coverage
