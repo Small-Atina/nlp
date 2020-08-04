@@ -18,10 +18,11 @@
 > 1. 对于传统词表中的词和UNK，模型采用Generate-Mode计算词语输出概率：
 > 2. 对于源序列词表中的词，模型采用Copy-Mode计算词语输出概率：
 > 3. 最后模型会将Generate-Mode和Copy-Mode输出的词语概率进行相加汇总，得到最终的词语概率分布。$p(w)=p(w|g)+p(w|c)$
-+ state Update
++ state Update（重点）
 #### 三、PGN(Pointer Generater Network)（发表于2017年）
 ##### 1.创新点
 + Generater Network
 + 
 + Coverage Mechanism
 ##### 2.CopyNet和PGN的区别是什么
++ 虽然都是用了generater和copy
