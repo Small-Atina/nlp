@@ -15,9 +15,9 @@
 #### 二、CopyNet（发表于2016年）
 ##### 1.主要创新点
 + 有两个模块，Generate-Mode & Copy-Mode。Generate-Mode & Copy-Mode模块会维护两个词表，一个是传统的词表（但是这个词表不包含UNK），一个是源序列中的词构成的词表。
-> 1.对于传统词表中的词和UNK，模型采用Generate-Mode计算词语输出概率：
-> 2.对于源序列词表中的词，模型采用Copy-Mode计算词语输出概率：
-> 3.最后模型会将Generate-Mode和Copy-Mode输出的词语概率进行相加汇总，得到最终的词语概率分布。$p(w)=p(w|g)+p(w|c)$
+> 1. 对于传统词表中的词和UNK，模型采用Generate-Mode计算词语输出概率：
+> 2. 对于源序列词表中的词，模型采用Copy-Mode计算词语输出概率：
+> 3. 最后模型会将Generate-Mode和Copy-Mode输出的词语概率进行相加汇总，得到最终的词语概率分布。$p(w)=p(w|g)+p(w|c)$
 + state Update
 #### 三、PGN(Pointer Generater Network)（发表于2017年）
 ##### 1.创新点
