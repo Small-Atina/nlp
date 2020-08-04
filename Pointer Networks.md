@@ -20,3 +20,7 @@
 + state Update
 #### 三、PGN(Pointer Generater Network)（发表于2017年）
 ##### 1.创新点
++ Generater Network
++ 
++ Coverage Mechanism
+##### 2.CopyNet和PGN的区别是什么
