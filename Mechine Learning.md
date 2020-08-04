@@ -23,8 +23,10 @@
 #### 9.K-means
 #### KNN和K-means区别
 
-#### HMM
-#### CRT
+#### 10.HMM
+#### 11.CRT
 
-#### Bayes
-#### EM
+#### 12.Bayes
+#### 13.EM
+
+#### 
