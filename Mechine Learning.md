@@ -24,6 +24,7 @@
 #### 5.GBDT
 #### 6.XGboost
 #### 7.LightGBM
+https://zhuanlan.zhihu.com/p/99069186
 #### Random和GBDT区别；GBDT和XGboost区别；LightGBM和XGboost的区别
 + LightGBM 比 XGBoost 快将近 10 倍，内存占用率大约为 XGBoost 的1/6，并且准确率也有提升。
 + LightGBM提出的动机：主要原因就是为了解决 GBDT 在海量数据遇到的问题，让 GBDT 可以更好更快地用于工业实践。
