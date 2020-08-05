@@ -25,6 +25,16 @@
 #### 6.XGboost
 #### 7.LightGBM
 #### Random和GBDT区别；GBDT和XGboost区别；LightGBM和XGboost的区别
++ LightGBM 比 XGBoost 快将近 10 倍，内存占用率大约为 XGBoost 的1/6，并且准确率也有提升。
++ LightGBM提出的动机：主要原因就是为了解决 GBDT 在海量数据遇到的问题，让 GBDT 可以更好更快地用于工业实践。
+##### LightGBM 优化部分包含以下：
++ 基于 Histogram 的决策树算法
++ 带深度限制的 Leaf-wise 的叶子生长策略
++ 直方图做差加速
++ 直接支持类别特征(Categorical Feature)
++ Cache 命中率优化
++ 基于直方图的稀疏特征优化
++ 多线程优化。
 
 #### 8.KNN(K-近邻)（有监督的分类模型）
 + 分类；有监督；有label，没有专门的训练过程
