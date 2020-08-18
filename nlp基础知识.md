@@ -20,6 +20,7 @@
 + 4.n-gram
 + 5.Co-Occurence Matrix：共现矩阵
 + 6.Word2Vec
+https://my.oschina.net/u/4277346/blog/4462686
 + 7.Glove
 + 8.Fasttext
 + 9.ELMO
