@@ -22,6 +22,7 @@
 + 6.Word2Vec
 https://my.oschina.net/u/4277346/blog/4462686
 使用word2vec提前预训练比直接用深度网络训练的好处？
+word2vec参数对参数的影响？？
 + 7.Glove
 + 8.Fasttext
 + 9.ELMO
