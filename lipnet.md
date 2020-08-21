@@ -1,0 +1,12 @@
+##### 项目背景，目标
+##### 项目评价标准
+##### 数据
++ 样本大小
++ 样本分布
++ 样本预处理
+##### baseline+提升
++ lipnet（2016年唇语识别网络）（3次3dcov+maxpooling+dropout）
++ 修改，增加了resnet，增加的resnet结构，为什么用resnet，你是怎么处理的，加上一个BiLSTM，增加一个self-attention，最后全连做一个分类处理。
++ 损失函数
++ 优化函数
++ 参数
